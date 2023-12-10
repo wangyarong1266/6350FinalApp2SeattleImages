@@ -13,6 +13,8 @@
 		964B8CE42B253117000FBE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CE22B253117000FBE5D /* Main.storyboard */; };
 		964B8CE62B25311C000FBE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CE52B25311C000FBE5D /* Assets.xcassets */; };
 		964B8CE92B25311C000FBE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CE72B25311C000FBE5D /* LaunchScreen.storyboard */; };
+		964B8CF22B253284000FBE5D /* SeattleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B8CF02B253284000FBE5D /* SeattleTableViewCell.swift */; };
+		964B8CF32B253284000FBE5D /* SeattleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964B8CF12B253284000FBE5D /* SeattleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		964B8CE52B25311C000FBE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964B8CE82B25311C000FBE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964B8CEA2B25311C000FBE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B8CF02B253284000FBE5D /* SeattleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleTableViewCell.swift; sourceTree = "<group>"; };
+		964B8CF12B253284000FBE5D /* SeattleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeattleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				964B8CE52B25311C000FBE5D /* Assets.xcassets */,
 				964B8CE72B25311C000FBE5D /* LaunchScreen.storyboard */,
 				964B8CEA2B25311C000FBE5D /* Info.plist */,
+				964B8CF02B253284000FBE5D /* SeattleTableViewCell.swift */,
+				964B8CF12B253284000FBE5D /* SeattleTableViewCell.xib */,
 			);
 			path = App1SeattleImages;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				964B8CE92B25311C000FBE5D /* LaunchScreen.storyboard in Resources */,
 				964B8CE62B25311C000FBE5D /* Assets.xcassets in Resources */,
+				964B8CF32B253284000FBE5D /* SeattleTableViewCell.xib in Resources */,
 				964B8CE42B253117000FBE5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				964B8CE12B253117000FBE5D /* ViewController.swift in Sources */,
 				964B8CDD2B253117000FBE5D /* AppDelegate.swift in Sources */,
+				964B8CF22B253284000FBE5D /* SeattleTableViewCell.swift in Sources */,
 				964B8CDF2B253117000FBE5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App1SeattleImages/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App1SeattleImages/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
